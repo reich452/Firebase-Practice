@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011DB4FB1EB6653600BDECC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DB4FA1EB6653600BDECC1 /* AppDelegate.swift */; };
+		011DB5001EB6653600BDECC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011DB4FE1EB6653600BDECC1 /* Main.storyboard */; };
+		011DB5021EB6653600BDECC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011DB5011EB6653600BDECC1 /* Assets.xcassets */; };
+		011DB5051EB6653700BDECC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011DB5031EB6653700BDECC1 /* LaunchScreen.storyboard */; };
+		011DB50D1EB669F500BDECC1 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DB50C1EB669F500BDECC1 /* Survey.swift */; };
+		011DB50F1EB66B8900BDECC1 /* SurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DB50E1EB66B8900BDECC1 /* SurveyController.swift */; };
+		011DB5111EB66CCC00BDECC1 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DB5101EB66CCC00BDECC1 /* NetworkController.swift */; };
+		011DB51C1EB6721900BDECC1 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DB51B1EB6721900BDECC1 /* SurveyViewController.swift */; };
+		011DB51E1EB672A600BDECC1 /* ResponseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DB51D1EB672A600BDECC1 /* ResponseTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011DB4F71EB6653600BDECC1 /* favoriteEmojiFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = favoriteEmojiFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011DB4FA1EB6653600BDECC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		011DB4FF1EB6653600BDECC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		011DB5011EB6653600BDECC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011DB5041EB6653700BDECC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		011DB5061EB6653700BDECC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011DB50C1EB669F500BDECC1 /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		011DB50E1EB66B8900BDECC1 /* SurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyController.swift; sourceTree = "<group>"; };
+		011DB5101EB66CCC00BDECC1 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		011DB51B1EB6721900BDECC1 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		011DB51D1EB672A600BDECC1 /* ResponseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011DB4F41EB6653600BDECC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011DB4EE1EB6653600BDECC1 = {
+			isa = PBXGroup;
+			children = (
+				011DB4F91EB6653600BDECC1 /* HelloFirebaseTutorial */,
+				011DB5171EB6711700BDECC1 /* Resources */,
+				011DB4F81EB6653600BDECC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011DB4F81EB6653600BDECC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011DB4F71EB6653600BDECC1 /* favoriteEmojiFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011DB4F91EB6653600BDECC1 /* HelloFirebaseTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				011DB5121EB6708500BDECC1 /* Model */,
+				011DB50C1EB669F500BDECC1 /* Survey.swift */,
+				011DB5151EB670A800BDECC1 /* Controllers */,
+				011DB5141EB670A100BDECC1 /* View Controllers */,
+				011DB51B1EB6721900BDECC1 /* SurveyViewController.swift */,
+				011DB51D1EB672A600BDECC1 /* ResponseTableViewController.swift */,
+				011DB51A1EB671D300BDECC1 /* Storyboard */,
+			);
+			path = HelloFirebaseTutorial;
+			sourceTree = "<group>";
+		};
+		011DB5121EB6708500BDECC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		011DB5141EB670A100BDECC1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		011DB5151EB670A800BDECC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				011DB5181EB6719D00BDECC1 /* Model Controller */,
+				011DB5191EB671AA00BDECC1 /* Network Controller */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		011DB5171EB6711700BDECC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				011DB5061EB6653700BDECC1 /* Info.plist */,
+				011DB5011EB6653600BDECC1 /* Assets.xcassets */,
+				011DB5031EB6653700BDECC1 /* LaunchScreen.storyboard */,
+				011DB4FA1EB6653600BDECC1 /* AppDelegate.swift */,
+			);
+			name = Resources;
+			path = HelloFirebaseTutorial;
+			sourceTree = "<group>";
+		};
+		011DB5181EB6719D00BDECC1 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				011DB50E1EB66B8900BDECC1 /* SurveyController.swift */,
+			);
+			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		011DB5191EB671AA00BDECC1 /* Network Controller */ = {
+			isa = PBXGroup;
+			children = (
+				011DB5101EB66CCC00BDECC1 /* NetworkController.swift */,
+			);
+			name = "Network Controller";
+			sourceTree = "<group>";
+		};
+		011DB51A1EB671D300BDECC1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				011DB4FE1EB6653600BDECC1 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011DB4F61EB6653600BDECC1 /* favoriteEmojiFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011DB5091EB6653700BDECC1 /* Build configuration list for PBXNativeTarget "favoriteEmojiFirebase" */;
+			buildPhases = (
+				011DB4F31EB6653600BDECC1 /* Sources */,
+				011DB4F41EB6653600BDECC1 /* Frameworks */,
+				011DB4F51EB6653600BDECC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = favoriteEmojiFirebase;
+			productName = HelloFirebaseTutorial;
+			productReference = 011DB4F71EB6653600BDECC1 /* favoriteEmojiFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011DB4EF1EB6653600BDECC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nick Reichard";
+				TargetAttributes = {
+					011DB4F61EB6653600BDECC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MU4CK45G4T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 011DB4F21EB6653600BDECC1 /* Build configuration list for PBXProject "favoriteEmojiFirebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 011DB4EE1EB6653600BDECC1;
+			productRefGroup = 011DB4F81EB6653600BDECC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011DB4F61EB6653600BDECC1 /* favoriteEmojiFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011DB4F51EB6653600BDECC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011DB5051EB6653700BDECC1 /* LaunchScreen.storyboard in Resources */,
+				011DB5021EB6653600BDECC1 /* Assets.xcassets in Resources */,
+				011DB5001EB6653600BDECC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011DB4F31EB6653600BDECC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011DB5111EB66CCC00BDECC1 /* NetworkController.swift in Sources */,
+				011DB50F1EB66B8900BDECC1 /* SurveyController.swift in Sources */,
+				011DB4FB1EB6653600BDECC1 /* AppDelegate.swift in Sources */,
+				011DB50D1EB669F500BDECC1 /* Survey.swift in Sources */,
+				011DB51E1EB672A600BDECC1 /* ResponseTableViewController.swift in Sources */,
+				011DB51C1EB6721900BDECC1 /* SurveyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		011DB4FE1EB6653600BDECC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011DB4FF1EB6653600BDECC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		011DB5031EB6653700BDECC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011DB5041EB6653700BDECC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011DB5071EB6653700BDECC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011DB5081EB6653700BDECC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011DB50A1EB6653700BDECC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MU4CK45G4T;
+				INFOPLIST_FILE = HelloFirebaseTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickreichard..HelloFirebaseTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		011DB50B1EB6653700BDECC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MU4CK45G4T;
+				INFOPLIST_FILE = HelloFirebaseTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickreichard..HelloFirebaseTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011DB4F21EB6653600BDECC1 /* Build configuration list for PBXProject "favoriteEmojiFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011DB5071EB6653700BDECC1 /* Debug */,
+				011DB5081EB6653700BDECC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011DB5091EB6653700BDECC1 /* Build configuration list for PBXNativeTarget "favoriteEmojiFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011DB50A1EB6653700BDECC1 /* Debug */,
+				011DB50B1EB6653700BDECC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011DB4EF1EB6653600BDECC1 /* Project object */;
+}
